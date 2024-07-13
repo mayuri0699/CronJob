@@ -1,0 +1,620 @@
+2024-07-13 20:27:39,440 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-07-13 20:27:39,441 django.utils.autoreload DEBUG Waiting for apps ready_event.
+2024-07-13 20:27:39,469 django.utils.autoreload DEBUG Apps ready_event triggered. Sending autoreload_started signal.
+2024-07-13 20:27:39,663 django.utils.autoreload DEBUG Watching dir /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/CronJob/locale with glob **/*.mo.
+2024-07-13 20:27:39,663 django.utils.autoreload DEBUG Watching dir /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django_crontab/locale with glob **/*.mo.
+2024-07-13 20:27:39,664 django.utils.autoreload DEBUG Watching dir /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/CronJob/cronjobapp/locale with glob **/*.mo.
+2024-07-13 20:27:40,008 django.db.backends DEBUG (0.004) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2024-07-13 20:27:40,018 django.db.backends DEBUG (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2024-07-13 20:27:44,190 django.utils.autoreload DEBUG File /usr/lib/python3.10/re.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,190 django.utils.autoreload DEBUG File /usr/lib/python3.10/json/encoder.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,193 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/migrations/operations/models.py first seen with mtime 1720803411.0980778
+2024-07-13 20:27:44,193 django.utils.autoreload DEBUG File /usr/lib/python3.10/sre_parse.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,193 django.utils.autoreload DEBUG File /usr/lib/python3.10/asyncio/subprocess.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,195 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/contenttypes/apps.py first seen with mtime 1720803375.2094116
+2024-07-13 20:27:44,199 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/utils.py first seen with mtime 1720803410.231247
+2024-07-13 20:27:44,203 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/regex_helper.py first seen with mtime 1720803414.4433377
+2024-07-13 20:27:44,203 django.utils.autoreload DEBUG File /usr/lib/python3.10/genericpath.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,208 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/constants.py first seen with mtime 1720803411.1443927
+2024-07-13 20:27:44,214 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/auth/password_validation.py first seen with mtime 1720803371.1439407
+2024-07-13 20:27:44,217 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/middleware/__init__.py first seen with mtime 1720803413.5439353
+2024-07-13 20:27:44,220 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/wsgi.py first seen with mtime 1720803408.7967904
+2024-07-13 20:27:44,220 django.utils.autoreload DEBUG File /usr/lib/python3.10/html/parser.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,223 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/admin/templatetags/log.py first seen with mtime 1720803367.0126498
+2024-07-13 20:27:44,226 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/http/request.py first seen with mtime 1720803413.5107603
+2024-07-13 20:27:44,231 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/contenttypes/management/__init__.py first seen with mtime 1720803378.9391634
+2024-07-13 20:27:44,231 django.utils.autoreload DEBUG File /usr/lib/python3.10/secrets.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,234 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/auth/checks.py first seen with mtime 1720803371.0324554
+2024-07-13 20:27:44,237 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/backends/base/base.py first seen with mtime 1720803410.3058164
+2024-07-13 20:27:44,240 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/views/generic/list.py first seen with mtime 1720803415.0417206
+2024-07-13 20:27:44,243 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/checks/templates.py first seen with mtime 1720803409.0486362
+2024-07-13 20:27:44,248 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/functions/comparison.py first seen with mtime 1720803411.42855
+2024-07-13 20:27:44,248 django.utils.autoreload DEBUG File /usr/lib/python3.10/site.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,251 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/features.py first seen with mtime 1720803410.8614185
+2024-07-13 20:27:44,254 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/decorators.py first seen with mtime 1720803414.25328
+2024-07-13 20:27:44,257 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/aggregates.py first seen with mtime 1720803411.1287706
+2024-07-13 20:27:44,257 django.utils.autoreload DEBUG File /usr/lib/python3.10/concurrent/futures/_base.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,257 django.utils.autoreload DEBUG File /usr/lib/python3.10/email/mime/multipart.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,261 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/management/commands/__init__.py first seen with mtime 1720803409.5838625
+2024-07-13 20:27:44,264 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/template/utils.py first seen with mtime 1720803413.7786808
+2024-07-13 20:27:44,265 django.utils.autoreload DEBUG File /usr/lib/python3.10/urllib/response.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,267 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/forms/models.py first seen with mtime 1720803411.9178813
+2024-07-13 20:27:44,270 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/templatetags/static.py first seen with mtime 1720803413.9530816
+2024-07-13 20:27:44,270 django.utils.autoreload DEBUG File /usr/lib/python3.10/concurrent/futures/thread.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,273 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/template/autoreload.py first seen with mtime 1720803413.6525872
+2024-07-13 20:27:44,275 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/sqlparse/engine/grouping.py first seen with mtime 1720803335.1199455
+2024-07-13 20:27:44,276 django.utils.autoreload DEBUG File /usr/lib/python3.10/_compat_pickle.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,279 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/backends/base/operations.py first seen with mtime 1720803410.3575246
+2024-07-13 20:27:44,282 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django_crontab/models.py first seen with mtime 1429289094.0
+2024-07-13 20:27:44,282 django.utils.autoreload DEBUG File /usr/lib/python3.10/gettext.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,285 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/handlers/asgi.py first seen with mtime 1720803409.347565
+2024-07-13 20:27:44,289 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/fields/json.py first seen with mtime 1720803411.3336754
+2024-07-13 20:27:44,292 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/deconstruct.py first seen with mtime 1720803414.25328
+2024-07-13 20:27:44,292 django.utils.autoreload DEBUG File /usr/lib/python3.10/lib-dynload/_lzma.cpython-310-x86_64-linux-gnu.so first seen with mtime 1711126205.0
+2024-07-13 20:27:44,295 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/asgiref/__init__.py first seen with mtime 1720803350.0065534
+2024-07-13 20:27:44,295 django.utils.autoreload DEBUG File /usr/lib/python3.10/_sitebuiltins.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,296 django.utils.autoreload DEBUG File /usr/lib/python3.10/email/contentmanager.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,299 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/safestring.py first seen with mtime 1720803414.4625897
+2024-07-13 20:27:44,302 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/expressions.py first seen with mtime 1720803411.191352
+2024-07-13 20:27:44,305 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/fields/related.py first seen with mtime 1720803411.3659391
+2024-07-13 20:27:44,305 django.utils.autoreload DEBUG File /usr/lib/python3.10/hmac.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,308 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/sqlparse/__init__.py first seen with mtime 1720803334.9051926
+2024-07-13 20:27:44,308 django.utils.autoreload DEBUG File /usr/lib/python3.10/importlib/machinery.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,308 django.utils.autoreload DEBUG File /usr/lib/python3.10/weakref.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,312 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/creation.py first seen with mtime 1720803410.8457932
+2024-07-13 20:27:44,315 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/sessions/apps.py first seen with mtime 1720803400.0747886
+2024-07-13 20:27:44,318 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/messages/constants.py first seen with mtime 1720803392.8519921
+2024-07-13 20:27:44,322 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/sql/__init__.py first seen with mtime 1720803411.5065663
+2024-07-13 20:27:44,325 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/views/decorators/common.py first seen with mtime 1720803414.9104846
+2024-07-13 20:27:44,328 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/admin/apps.py first seen with mtime 1720803356.4291284
+2024-07-13 20:27:44,328 django.utils.autoreload DEBUG File /usr/lib/python3.10/opcode.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,332 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/template/backends/__init__.py first seen with mtime 1720803413.7786808
+2024-07-13 20:27:44,332 django.utils.autoreload DEBUG File /usr/lib/python3.10/mimetypes.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,335 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/query_utils.py first seen with mtime 1720803411.2550657
+2024-07-13 20:27:44,335 django.utils.autoreload DEBUG File /usr/lib/python3.10/asyncio/constants.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,338 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/signals.py first seen with mtime 1720803408.7655058
+2024-07-13 20:27:44,341 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/__init__.py first seen with mtime 1720803410.8065195
+2024-07-13 20:27:44,341 django.utils.autoreload DEBUG File /usr/lib/python3.10/collections/__init__.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,342 django.utils.autoreload DEBUG File /usr/lib/python3.10/datetime.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,345 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/hashable.py first seen with mtime 1720803414.331775
+2024-07-13 20:27:44,345 django.utils.autoreload DEBUG File /usr/lib/python3.10/logging/__init__.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,349 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/admin/templatetags/admin_urls.py first seen with mtime 1720803366.9896562
+2024-07-13 20:27:44,352 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/mail/utils.py first seen with mtime 1720803409.4108853
+2024-07-13 20:27:44,355 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/apps/registry.py first seen with mtime 1720803350.7977705
+2024-07-13 20:27:44,355 django.utils.autoreload DEBUG File /usr/lib/python3.10/email/feedparser.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,355 django.utils.autoreload DEBUG File /usr/lib/python3.10/logging/handlers.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,355 django.utils.autoreload DEBUG File /usr/lib/python3.10/graphlib.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,358 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/auth/models.py first seen with mtime 1720803371.1294317
+2024-07-13 20:27:44,362 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/lorem_ipsum.py first seen with mtime 1720803414.4141803
+2024-07-13 20:27:44,363 django.utils.autoreload DEBUG File /usr/lib/python3.10/asyncio/queues.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,365 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/apps/config.py first seen with mtime 1720803350.7664988
+2024-07-13 20:27:44,368 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/timesince.py first seen with mtime 1720803414.490297
+2024-07-13 20:27:44,371 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/backends/utils.py first seen with mtime 1720803410.2781618
+2024-07-13 20:27:44,374 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/middleware/cache.py first seen with mtime 1720803413.5604594
+2024-07-13 20:27:44,377 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/template/loader.py first seen with mtime 1720803413.7313223
+2024-07-13 20:27:44,381 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/admin/utils.py first seen with mtime 1720803356.7158105
+2024-07-13 20:27:44,384 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/constraints.py first seen with mtime 1720803411.1606853
+2024-07-13 20:27:44,387 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/base.py first seen with mtime 1720803411.1443927
+2024-07-13 20:27:44,390 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/staticfiles/__init__.py first seen with mtime 1720803408.4026542
+2024-07-13 20:27:44,392 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/template/loader_tags.py first seen with mtime 1720803413.7469761
+2024-07-13 20:27:44,393 django.utils.autoreload DEBUG File /usr/lib/python3.10/abc.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,398 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/checks/security/sessions.py first seen with mtime 1720803409.1277974
+2024-07-13 20:27:44,401 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/staticfiles/handlers.py first seen with mtime 1720803408.4494252
+2024-07-13 20:27:44,402 django.utils.autoreload DEBUG File /usr/lib/python3.10/urllib/__init__.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,404 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/sqlparse/lexer.py first seen with mtime 1720803334.984796
+2024-07-13 20:27:44,406 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/transaction.py first seen with mtime 1720803410.2156074
+2024-07-13 20:27:44,409 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/backends/base/__init__.py first seen with mtime 1720803410.2938015
+2024-07-13 20:27:44,410 django.utils.autoreload DEBUG File /usr/lib/python3.10/http/cookies.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,413 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/sqlparse/filters/aligned_indent.py first seen with mtime 1720803335.2468271
+2024-07-13 20:27:44,416 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/__init__.py first seen with mtime 1720803350.6876576
+2024-07-13 20:27:44,419 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/messages/api.py first seen with mtime 1720803392.836378
+2024-07-13 20:27:44,419 django.utils.autoreload DEBUG File /usr/lib/python3.10/email/__init__.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,421 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/__init__.py first seen with mtime 1720803356.303483
+2024-07-13 20:27:44,425 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/checks/security/base.py first seen with mtime 1720803409.112156
+2024-07-13 20:27:44,429 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/fields/reverse_related.py first seen with mtime 1720803411.4066226
+2024-07-13 20:27:44,429 django.utils.autoreload DEBUG File /usr/lib/python3.10/json/scanner.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,429 django.utils.autoreload DEBUG File /usr/lib/python3.10/wsgiref/headers.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,429 django.utils.autoreload DEBUG File /usr/lib/python3.10/multiprocessing/process.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,433 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/cache/backends/filebased.py first seen with mtime 1720803408.9070933
+2024-07-13 20:27:44,436 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/sqlparse/filters/tokens.py first seen with mtime 1720803335.4155514
+2024-07-13 20:27:44,439 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/files/storage/memory.py first seen with mtime 1720803409.3162062
+2024-07-13 20:27:44,442 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/migrations/__init__.py first seen with mtime 1720803410.908382
+2024-07-13 20:27:44,446 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/handlers/base.py first seen with mtime 1720803409.3490727
+2024-07-13 20:27:44,449 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/conf/locale/__init__.py first seen with mtime 1720803351.0224102
+2024-07-13 20:27:44,452 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/template/loaders/filesystem.py first seen with mtime 1720803413.8892734
+2024-07-13 20:27:44,453 django.utils.autoreload DEBUG File /usr/lib/python3.10/quopri.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,455 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django_crontab/__init__.py first seen with mtime 1429289094.0
+2024-07-13 20:27:44,458 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/admin/templatetags/admin_list.py first seen with mtime 1720803366.9510853
+2024-07-13 20:27:44,459 django.utils.autoreload DEBUG File /usr/lib/python3.10/multiprocessing/__init__.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,463 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/files/storage/filesystem.py first seen with mtime 1720803409.2845178
+2024-07-13 20:27:44,466 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/cache.py first seen with mtime 1720803414.1736166
+2024-07-13 20:27:44,466 django.utils.autoreload DEBUG File /usr/lib/python3.10/lib-dynload/_json.cpython-310-x86_64-linux-gnu.so first seen with mtime 1711126205.0
+2024-07-13 20:27:44,466 django.utils.autoreload DEBUG File /usr/lib/python3.10/http/client.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,467 django.utils.autoreload DEBUG File /usr/lib/python3.10/lib-dynload/_bz2.cpython-310-x86_64-linux-gnu.so first seen with mtime 1711126205.0
+2024-07-13 20:27:44,470 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/contenttypes/forms.py first seen with mtime 1720803375.2736964
+2024-07-13 20:27:44,470 django.utils.autoreload DEBUG File /usr/lib/python3.10/email/errors.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,473 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/deprecation.py first seen with mtime 1720803414.2683072
+2024-07-13 20:27:44,473 django.utils.autoreload DEBUG File /usr/lib/python3.10/email/mime/text.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,475 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/timezone.py first seen with mtime 1720803414.50945
+2024-07-13 20:27:44,476 django.utils.autoreload DEBUG File /usr/lib/python3.10/getpass.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,479 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/files/base.py first seen with mtime 1720803409.143426
+2024-07-13 20:27:44,480 django.utils.autoreload DEBUG File /usr/lib/python3.10/zoneinfo/__init__.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,480 django.utils.autoreload DEBUG File /usr/lib/python3.10/argparse.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,480 django.utils.autoreload DEBUG File /usr/lib/python3.10/posixpath.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,484 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/management/commands/runserver.py first seen with mtime 1720803409.8992534
+2024-07-13 20:27:44,486 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/sqlparse/keywords.py first seen with mtime 1720803334.9771688
+2024-07-13 20:27:44,486 django.utils.autoreload DEBUG File /usr/lib/python3.10/email/_parseaddr.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,487 django.utils.autoreload DEBUG File /usr/lib/python3.10/statistics.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,487 django.utils.autoreload DEBUG File /usr/lib/python3.10/sre_constants.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,490 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py first seen with mtime 1720803414.9150126
+2024-07-13 20:27:44,492 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/translation/__init__.py first seen with mtime 1720803414.5532331
+2024-07-13 20:27:44,493 django.utils.autoreload DEBUG File /usr/lib/python3.10/base64.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,497 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/auth/__init__.py first seen with mtime 1720803370.9852042
+2024-07-13 20:27:44,501 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/admin/views/main.py first seen with mtime 1720803367.0598724
+2024-07-13 20:27:44,501 django.utils.autoreload DEBUG File /usr/lib/python3.10/lib-dynload/_hashlib.cpython-310-x86_64-linux-gnu.so first seen with mtime 1711126205.0
+2024-07-13 20:27:44,504 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/staticfiles/apps.py first seen with mtime 1720803408.4026542
+2024-07-13 20:27:44,507 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/views/generic/detail.py first seen with mtime 1720803415.0260758
+2024-07-13 20:27:44,507 django.utils.autoreload DEBUG File /usr/lib/python3.10/email/_header_value_parser.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,510 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/handlers/exception.py first seen with mtime 1720803409.3635852
+2024-07-13 20:27:44,513 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/templatetags/tz.py first seen with mtime 1720803413.9687376
+2024-07-13 20:27:44,514 django.utils.autoreload DEBUG File /usr/lib/python3.10/wsgiref/util.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,514 django.utils.autoreload DEBUG File /usr/lib/python3.10/calendar.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,517 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/files/images.py first seen with mtime 1720803409.1590517
+2024-07-13 20:27:44,520 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/functions/text.py first seen with mtime 1720803411.4758918
+2024-07-13 20:27:44,523 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/autoreload.py first seen with mtime 1720803414.1591084
+2024-07-13 20:27:44,526 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/admin/helpers.py first seen with mtime 1720803356.5600312
+2024-07-13 20:27:44,530 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/sqlparse/filters/others.py first seen with mtime 1720803335.295331
+2024-07-13 20:27:44,533 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/functions/__init__.py first seen with mtime 1720803411.4135222
+2024-07-13 20:27:44,536 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/__init__.py first seen with mtime 1720803411.1131139
+2024-07-13 20:27:44,537 django.utils.autoreload DEBUG File /usr/lib/python3.10/struct.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,537 django.utils.autoreload DEBUG File /usr/lib/python3.10/email/_policybase.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,540 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/template/backends/base.py first seen with mtime 1720803413.7943075
+2024-07-13 20:27:44,540 django.utils.autoreload DEBUG File /usr/lib/python3.10/encodings/__init__.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,543 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/choices.py first seen with mtime 1720803414.1892703
+2024-07-13 20:27:44,547 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py first seen with mtime 1720803410.8301752
+2024-07-13 20:27:44,548 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/CronJob/cronjobapp/__init__.py first seen with mtime 1716108732.1258168
+2024-07-13 20:27:44,549 django.utils.autoreload DEBUG File /usr/lib/python3.10/asyncio/base_futures.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,552 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/checks/security/__init__.py first seen with mtime 1720803409.1040387
+2024-07-13 20:27:44,555 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/checks/compatibility/django_4_0.py first seen with mtime 1720803409.0798926
+2024-07-13 20:27:44,556 django.utils.autoreload DEBUG File /usr/lib/python3.10/asyncio/staggered.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,559 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/staticfiles/utils.py first seen with mtime 1720803408.4967406
+2024-07-13 20:27:44,562 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/checks/__init__.py first seen with mtime 1720803408.9544158
+2024-07-13 20:27:44,565 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/auth/middleware.py first seen with mtime 1720803371.1121078
+2024-07-13 20:27:44,566 django.utils.autoreload DEBUG File /usr/lib/python3.10/tempfile.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,569 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/admin/templatetags/base.py first seen with mtime 1720803366.9958751
+2024-07-13 20:27:44,572 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/migrations/operations/base.py first seen with mtime 1720803411.0661142
+2024-07-13 20:27:44,573 django.utils.autoreload DEBUG File /usr/lib/python3.10/enum.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,575 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/termcolors.py first seen with mtime 1720803414.4752762
+2024-07-13 20:27:44,576 django.utils.autoreload DEBUG File /usr/lib/python3.10/asyncio/events.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,579 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/views/static.py first seen with mtime 1720803414.8362806
+2024-07-13 20:27:44,582 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/views/__init__.py first seen with mtime 1720803414.6634994
+2024-07-13 20:27:44,582 django.utils.autoreload DEBUG File /usr/lib/python3.10/asyncio/base_subprocess.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,583 django.utils.autoreload DEBUG File /usr/lib/python3.10/bz2.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,586 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/handlers/__init__.py first seen with mtime 1720803409.3335497
+2024-07-13 20:27:44,588 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/manager.py first seen with mtime 1720803411.2230566
+2024-07-13 20:27:44,589 django.utils.autoreload DEBUG File /usr/lib/python3.10/pprint.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,591 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/sessions/base_session.py first seen with mtime 1720803400.0924306
+2024-07-13 20:27:44,592 django.utils.autoreload DEBUG File /usr/lib/python3.10/socketserver.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,595 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/sqlparse/filters/output.py first seen with mtime 1720803335.34157
+2024-07-13 20:27:44,598 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/operations.py first seen with mtime 1720803410.893845
+2024-07-13 20:27:44,599 django.utils.autoreload DEBUG File /usr/lib/python3.10/locale.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,602 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/servers/__init__.py first seen with mtime 1720803410.1839454
+2024-07-13 20:27:44,604 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/contenttypes/checks.py first seen with mtime 1720803375.231962
+2024-07-13 20:27:44,605 django.utils.autoreload DEBUG File /usr/lib/python3.10/http/server.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,605 django.utils.autoreload DEBUG File /usr/lib/python3.10/asyncio/format_helpers.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,606 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/CronJob/core/urls.py first seen with mtime 1716108732.1252637
+2024-07-13 20:27:44,609 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/staticfiles/management/commands/__init__.py first seen with mtime 1720803408.5285797
+2024-07-13 20:27:44,610 django.utils.autoreload DEBUG File /usr/lib/python3.10/lib-dynload/_queue.cpython-310-x86_64-linux-gnu.so first seen with mtime 1711126205.0
+2024-07-13 20:27:44,614 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/functions/math.py first seen with mtime 1720803411.4442084
+2024-07-13 20:27:44,617 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/messages/__init__.py first seen with mtime 1720803392.8207355
+2024-07-13 20:27:44,620 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/connection.py first seen with mtime 1720803414.1892703
+2024-07-13 20:27:44,623 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/files/__init__.py first seen with mtime 1720803409.143426
+2024-07-13 20:27:44,625 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/template/context.py first seen with mtime 1720803413.6689644
+2024-07-13 20:27:44,626 django.utils.autoreload DEBUG File /usr/lib/python3.10/types.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,629 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/serializers/python.py first seen with mtime 1720803410.1519873
+2024-07-13 20:27:44,630 django.utils.autoreload DEBUG File /usr/lib/python3.10/email/parser.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,630 django.utils.autoreload DEBUG File /usr/lib/python3.10/asyncio/__init__.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,633 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/migrations/operations/special.py first seen with mtime 1720803411.1131139
+2024-07-13 20:27:44,637 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/admin/templatetags/admin_modify.py first seen with mtime 1720803366.9645934
+2024-07-13 20:27:44,637 django.utils.autoreload DEBUG File /usr/lib/python3.10/logging/config.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,640 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/auth/apps.py first seen with mtime 1720803371.0114026
+2024-07-13 20:27:44,642 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/admin/actions.py first seen with mtime 1720803356.4014552
+2024-07-13 20:27:44,643 django.utils.autoreload DEBUG File /usr/lib/python3.10/_collections_abc.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,651 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/views/decorators/debug.py first seen with mtime 1720803414.9306586
+2024-07-13 20:27:44,652 django.utils.autoreload DEBUG File /usr/lib/python3.10/selectors.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,652 django.utils.autoreload DEBUG File /usr/lib/python3.10/concurrent/futures/__init__.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,655 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/sites/__init__.py first seen with mtime 1720803404.510815
+2024-07-13 20:27:44,658 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/urls/exceptions.py first seen with mtime 1720803414.0946677
+2024-07-13 20:27:44,661 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/sites/requests.py first seen with mtime 1720803404.6052651
+2024-07-13 20:27:44,665 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/fields/related_lookups.py first seen with mtime 1720803411.3809626
+2024-07-13 20:27:44,665 django.utils.autoreload DEBUG File /usr/lib/python3.10/asyncio/tasks.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,668 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/ipv6.py first seen with mtime 1720803414.3794458
+2024-07-13 20:27:44,668 django.utils.autoreload DEBUG File /usr/lib/python3.10/asyncio/transports.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,671 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/sqlparse/engine/filter_stack.py first seen with mtime 1720803335.0995553
+2024-07-13 20:27:44,674 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/admin/options.py first seen with mtime 1720803356.6530159
+2024-07-13 20:27:44,674 django.utils.autoreload DEBUG File /usr/lib/python3.10/ipaddress.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,677 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/mail/message.py first seen with mtime 1720803409.4108853
+2024-07-13 20:27:44,678 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/CronJob/cronjobapp/admin.py first seen with mtime 1720899034.584889
+2024-07-13 20:27:44,681 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/sqlparse/formatter.py first seen with mtime 1720803334.9673104
+2024-07-13 20:27:44,684 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/sqlparse/filters/reindent.py first seen with mtime 1720803335.372014
+2024-07-13 20:27:44,684 django.utils.autoreload DEBUG File /usr/lib/python3.10/contextvars.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,687 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/enums.py first seen with mtime 1720803411.175698
+2024-07-13 20:27:44,688 django.utils.autoreload DEBUG File /usr/lib/python3.10/tokenize.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,688 django.utils.autoreload DEBUG File /usr/lib/python3.10/asyncio/protocols.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,691 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/template/loaders/base.py first seen with mtime 1720803413.8729024
+2024-07-13 20:27:44,692 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/CronJob/cronjobapp/apps.py first seen with mtime 1716108732.1277435
+2024-07-13 20:27:44,692 django.utils.autoreload DEBUG File /usr/lib/python3.10/email/mime/base.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,696 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/files/storage/base.py first seen with mtime 1720803409.2688782
+2024-07-13 20:27:44,697 django.utils.autoreload DEBUG File /usr/lib/python3.10/json/decoder.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,697 django.utils.autoreload DEBUG File /usr/lib/python3.10/_compression.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,700 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/backends/base/client.py first seen with mtime 1720803410.3108513
+2024-07-13 20:27:44,701 django.utils.autoreload DEBUG File /usr/lib/python3.10/token.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,701 django.utils.autoreload DEBUG File /usr/lib/python3.10/email/quoprimime.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,704 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/utils.py first seen with mtime 1720803411.270681
+2024-07-13 20:27:44,707 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/admin/checks.py first seen with mtime 1720803356.4291284
+2024-07-13 20:27:44,710 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/handlers/wsgi.py first seen with mtime 1720803409.3792608
+2024-07-13 20:27:44,714 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/serializers/json.py first seen with mtime 1720803410.1207218
+2024-07-13 20:27:44,715 django.utils.autoreload DEBUG File /usr/lib/python3.10/json/__init__.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,750 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/admin/templatetags/__init__.py first seen with mtime 1720803366.9495533
+2024-07-13 20:27:44,756 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/staticfiles/views.py first seen with mtime 1720803408.5027528
+2024-07-13 20:27:44,762 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/migrations/operations/__init__.py first seen with mtime 1720803411.0661142
+2024-07-13 20:27:44,776 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/contenttypes/models.py first seen with mtime 1720803375.330192
+2024-07-13 20:27:44,777 django.utils.autoreload DEBUG File /usr/lib/python3.10/importlib/__init__.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,778 django.utils.autoreload DEBUG File /usr/lib/python3.10/string.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,789 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/module_loading.py first seen with mtime 1720803414.4276948
+2024-07-13 20:27:44,798 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/cache/__init__.py first seen with mtime 1720803408.8284726
+2024-07-13 20:27:44,805 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/cache/backends/base.py first seen with mtime 1720803408.844767
+2024-07-13 20:27:44,810 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/auth/signals.py first seen with mtime 1720803371.1597455
+2024-07-13 20:27:44,810 django.utils.autoreload DEBUG File /usr/lib/python3.10/copyreg.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,814 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/template/defaultfilters.py first seen with mtime 1720803413.6839778
+2024-07-13 20:27:44,820 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/views/decorators/__init__.py first seen with mtime 1720803414.8831334
+2024-07-13 20:27:44,820 django.utils.autoreload DEBUG File /usr/lib/python3.10/fnmatch.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,820 django.utils.autoreload DEBUG File /usr/lib/python3.10/email/generator.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,825 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/management/base.py first seen with mtime 1720803409.5206127
+2024-07-13 20:27:44,829 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/migrations/state.py first seen with mtime 1720803411.019209
+2024-07-13 20:27:44,833 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/translation/reloader.py first seen with mtime 1720803414.5692592
+2024-07-13 20:27:44,833 django.utils.autoreload DEBUG File /usr/lib/python3.10/encodings/utf_8.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,836 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/messages/apps.py first seen with mtime 1720803392.836378
+2024-07-13 20:27:44,838 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/sqlparse/tokens.py first seen with mtime 1720803335.0252595
+2024-07-13 20:27:44,841 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/signals.py first seen with mtime 1720803411.270681
+2024-07-13 20:27:44,844 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/asyncio.py first seen with mtime 1720803414.1591084
+2024-07-13 20:27:44,848 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/template/exceptions.py first seen with mtime 1720803413.7162955
+2024-07-13 20:27:44,852 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/encoding.py first seen with mtime 1720803414.2839632
+2024-07-13 20:27:44,852 django.utils.autoreload DEBUG File /usr/lib/python3.10/html/entities.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,853 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/CronJob/core/__init__.py first seen with mtime 1716108732.1072042
+2024-07-13 20:27:44,856 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/checks/database.py first seen with mtime 1720803408.9856882
+2024-07-13 20:27:44,858 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/forms/widgets.py first seen with mtime 1720803411.980885
+2024-07-13 20:27:44,862 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/middleware/csrf.py first seen with mtime 1720803413.5902793
+2024-07-13 20:27:44,865 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/_os.py first seen with mtime 1720803414.1277628
+2024-07-13 20:27:44,868 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/template/smartif.py first seen with mtime 1720803413.7630284
+2024-07-13 20:27:44,870 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/dateparse.py first seen with mtime 1720803414.2375152
+2024-07-13 20:27:44,873 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/asgiref/sync.py first seen with mtime 1720803350.0685277
+2024-07-13 20:27:44,873 django.utils.autoreload DEBUG File /usr/lib/python3.10/zoneinfo/_tzpath.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,875 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/urls/resolvers.py first seen with mtime 1720803414.0946677
+2024-07-13 20:27:44,878 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/version.py first seen with mtime 1720803414.5219612
+2024-07-13 20:27:44,879 django.utils.autoreload DEBUG File /usr/lib/python3.10/fractions.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,879 django.utils.autoreload DEBUG File /usr/lib/python3.10/linecache.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,879 django.utils.autoreload DEBUG File /usr/lib/python3.10/asyncio/mixins.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,880 django.utils.autoreload DEBUG File /usr/lib/python3.10/collections/abc.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,883 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/backends/base/validation.py first seen with mtime 1720803410.3731737
+2024-07-13 20:27:44,883 django.utils.autoreload DEBUG File /usr/lib/python3.10/email/_encoded_words.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,886 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/forms/__init__.py first seen with mtime 1720803411.7767758
+2024-07-13 20:27:44,888 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/views/generic/base.py first seen with mtime 1720803414.9944105
+2024-07-13 20:27:44,892 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py first seen with mtime 1720803411.2863066
+2024-07-13 20:27:44,892 django.utils.autoreload DEBUG File /usr/lib/python3.10/decimal.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,892 django.utils.autoreload DEBUG File /usr/lib/python3.10/wsgiref/simple_server.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,896 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/messages/utils.py first seen with mtime 1720803392.899316
+2024-07-13 20:27:44,899 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/files/utils.py first seen with mtime 1720803409.2376306
+2024-07-13 20:27:44,903 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/sites/shortcuts.py first seen with mtime 1720803404.6209006
+2024-07-13 20:27:44,906 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/migrations/operations/fields.py first seen with mtime 1720803411.0817394
+2024-07-13 20:27:44,908 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/http/response.py first seen with mtime 1720803413.5264192
+2024-07-13 20:27:44,911 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/sqlparse/cli.py first seen with mtime 1720803334.929325
+2024-07-13 20:27:44,914 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/__init__.py first seen with mtime 1720803410.2156074
+2024-07-13 20:27:44,918 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/sessions/models.py first seen with mtime 1720803400.1229055
+2024-07-13 20:27:44,920 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/dateformat.py first seen with mtime 1720803414.2209437
+2024-07-13 20:27:44,921 django.utils.autoreload DEBUG File /usr/lib/python3.10/_weakrefset.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,924 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/admin/models.py first seen with mtime 1720803356.5879567
+2024-07-13 20:27:44,927 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/checks/model_checks.py first seen with mtime 1720803409.0173604
+2024-07-13 20:27:44,932 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/management/color.py first seen with mtime 1720803409.5369627
+2024-07-13 20:27:44,935 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/template/loaders/__init__.py first seen with mtime 1720803413.8416877
+2024-07-13 20:27:44,935 django.utils.autoreload DEBUG File /usr/lib/python3.10/email/mime/__init__.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,938 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/files/storage/__init__.py first seen with mtime 1720803409.253266
+2024-07-13 20:27:44,941 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/backends/base/schema.py first seen with mtime 1720803410.3731737
+2024-07-13 20:27:44,944 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/dispatch/dispatcher.py first seen with mtime 1720803411.6822064
+2024-07-13 20:27:44,944 django.utils.autoreload DEBUG File /usr/lib/python3.10/queue.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,945 django.utils.autoreload DEBUG File /usr/lib/python3.10/urllib/request.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,948 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/files/uploadedfile.py first seen with mtime 1720803409.2063634
+2024-07-13 20:27:44,950 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/sqlparse/utils.py first seen with mtime 1720803335.0575702
+2024-07-13 20:27:44,953 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/files/storage/handler.py first seen with mtime 1720803409.3001332
+2024-07-13 20:27:44,957 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/fields/proxy.py first seen with mtime 1720803411.3497846
+2024-07-13 20:27:44,960 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/indexes.py first seen with mtime 1720803411.207401
+2024-07-13 20:27:44,960 django.utils.autoreload DEBUG File /usr/lib/python3.10/urllib/parse.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,961 django.utils.autoreload DEBUG File /usr/lib/python3.10/gzip.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,964 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/apps/__init__.py first seen with mtime 1720803350.7346487
+2024-07-13 20:27:44,967 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/template/loaders/app_directories.py first seen with mtime 1720803413.8572812
+2024-07-13 20:27:44,970 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/templatetags/i18n.py first seen with mtime 1720803413.9425554
+2024-07-13 20:27:44,973 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/deletion.py first seen with mtime 1720803411.175698
+2024-07-13 20:27:44,975 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/files/locks.py first seen with mtime 1720803409.1746747
+2024-07-13 20:27:44,979 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/admin/exceptions.py first seen with mtime 1720803356.4924796
+2024-07-13 20:27:44,979 django.utils.autoreload DEBUG File /usr/lib/python3.10/dataclasses.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,983 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/contenttypes/__init__.py first seen with mtime 1720803375.137225
+2024-07-13 20:27:44,986 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/paginator.py first seen with mtime 1720803408.7342699
+2024-07-13 20:27:44,986 django.utils.autoreload DEBUG File /usr/lib/python3.10/uu.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,986 django.utils.autoreload DEBUG File /usr/lib/python3.10/concurrent/__init__.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,989 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/auth/base_user.py first seen with mtime 1720803371.024945
+2024-07-13 20:27:44,991 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/template/__init__.py first seen with mtime 1720803413.6369514
+2024-07-13 20:27:44,992 django.utils.autoreload DEBUG File /usr/lib/python3.10/pathlib.py first seen with mtime 1711126205.0
+2024-07-13 20:27:44,995 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/views/decorators/cache.py first seen with mtime 1720803414.8831334
+2024-07-13 20:27:44,999 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/sql/query.py first seen with mtime 1720803411.586643
+2024-07-13 20:27:45,001 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/asgiref/local.py first seen with mtime 1720803350.0388708
+2024-07-13 20:27:45,002 django.utils.autoreload DEBUG File /usr/lib/python3.10/email/header.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,002 django.utils.autoreload DEBUG File /usr/lib/python3.10/asyncio/base_tasks.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,002 django.utils.autoreload DEBUG File /usr/lib/python3.10/lib-dynload/_zoneinfo.cpython-310-x86_64-linux-gnu.so first seen with mtime 1711126205.0
+2024-07-13 20:27:45,005 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/functional.py first seen with mtime 1720803414.3162508
+2024-07-13 20:27:45,008 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/cache/backends/__init__.py first seen with mtime 1720803408.844767
+2024-07-13 20:27:45,011 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/sqlparse/engine/statement_splitter.py first seen with mtime 1720803335.1669366
+2024-07-13 20:27:45,015 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/files/temp.py first seen with mtime 1720803409.2063634
+2024-07-13 20:27:45,019 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/_functions.py first seen with mtime 1720803410.8145301
+2024-07-13 20:27:45,022 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/forms/fields.py first seen with mtime 1720803411.8708582
+2024-07-13 20:27:45,022 django.utils.autoreload DEBUG File /usr/lib/python3.10/lib-dynload/_ssl.cpython-310-x86_64-linux-gnu.so first seen with mtime 1711126205.0
+2024-07-13 20:27:45,025 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/staticfiles/finders.py first seen with mtime 1720803408.4338262
+2024-07-13 20:27:45,026 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/CronJob/cronjobapp/views.py first seen with mtime 1720897172.6139998
+2024-07-13 20:27:45,030 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/files/uploadhandler.py first seen with mtime 1720803409.2220173
+2024-07-13 20:27:45,033 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/admin/views/autocomplete.py first seen with mtime 1720803367.0276585
+2024-07-13 20:27:45,034 django.utils.autoreload DEBUG File /usr/lib/python3.10/lib-dynload/_uuid.cpython-310-x86_64-linux-gnu.so first seen with mtime 1711126205.0
+2024-07-13 20:27:45,037 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/staticfiles/checks.py first seen with mtime 1720803408.4181619
+2024-07-13 20:27:45,040 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/management/__init__.py first seen with mtime 1720803409.5206127
+2024-07-13 20:27:45,040 django.utils.autoreload DEBUG File /usr/lib/python3.10/email/message.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,040 django.utils.autoreload DEBUG File /usr/lib/python3.10/email/base64mime.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,043 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/messages/storage/base.py first seen with mtime 1720803392.947502
+2024-07-13 20:27:45,047 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/validators.py first seen with mtime 1720803408.7811506
+2024-07-13 20:27:45,050 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/http/cookie.py first seen with mtime 1720803413.4947166
+2024-07-13 20:27:45,050 django.utils.autoreload DEBUG File /usr/lib/python3.10/asyncio/selector_events.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,050 django.utils.autoreload DEBUG File /usr/lib/python3.10/lzma.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,053 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/conf/__init__.py first seen with mtime 1720803350.8303168
+2024-07-13 20:27:45,055 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/duration.py first seen with mtime 1720803414.2839632
+2024-07-13 20:27:45,056 django.utils.autoreload DEBUG File /usr/lib/python3.10/zoneinfo/_common.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,058 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/http/__init__.py first seen with mtime 1720803413.4790597
+2024-07-13 20:27:45,062 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/functions/datetime.py first seen with mtime 1720803411.42855
+2024-07-13 20:27:45,066 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/staticfiles/management/__init__.py first seen with mtime 1720803408.5135615
+2024-07-13 20:27:45,068 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/shortcuts.py first seen with mtime 1720803350.718933
+2024-07-13 20:27:45,071 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/views/generic/__init__.py first seen with mtime 1720803414.9787567
+2024-07-13 20:27:45,074 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/datastructures.py first seen with mtime 1720803414.2094183
+2024-07-13 20:27:45,076 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/forms/formsets.py first seen with mtime 1720803411.9077556
+2024-07-13 20:27:45,080 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/itercompat.py first seen with mtime 1720803414.3794458
+2024-07-13 20:27:45,081 django.utils.autoreload DEBUG File /usr/lib/python3.10/sqlite3/__init__.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,081 django.utils.autoreload DEBUG File /usr/lib/python3.10/email/utils.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,085 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/auth/validators.py first seen with mtime 1720803371.1912563
+2024-07-13 20:27:45,087 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/template/loaders/cached.py first seen with mtime 1720803413.8892734
+2024-07-13 20:27:45,088 django.utils.autoreload DEBUG File /usr/lib/python3.10/uuid.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,090 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/http/multipartparser.py first seen with mtime 1720803413.5107603
+2024-07-13 20:27:45,094 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/fields/related_descriptors.py first seen with mtime 1720803411.3809626
+2024-07-13 20:27:45,098 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/auth/tokens.py first seen with mtime 1720803371.1672919
+2024-07-13 20:27:45,098 django.utils.autoreload DEBUG File /usr/lib/python3.10/_markupbase.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,098 django.utils.autoreload DEBUG File /usr/lib/python3.10/sysconfig.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,101 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/contenttypes/fields.py first seen with mtime 1720803375.2420568
+2024-07-13 20:27:45,104 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/backends/__init__.py first seen with mtime 1720803410.2468803
+2024-07-13 20:27:45,107 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/lookups.py first seen with mtime 1720803411.207401
+2024-07-13 20:27:45,110 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/auth/admin.py first seen with mtime 1720803370.9852042
+2024-07-13 20:27:45,113 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/urls/base.py first seen with mtime 1720803414.0633988
+2024-07-13 20:27:45,117 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/sessions/__init__.py first seen with mtime 1720803400.0747886
+2024-07-13 20:27:45,120 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/forms/utils.py first seen with mtime 1720803411.9496052
+2024-07-13 20:27:45,123 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/migrations/utils.py first seen with mtime 1720803411.034851
+2024-07-13 20:27:45,126 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/admin/__init__.py first seen with mtime 1720803356.3544314
+2024-07-13 20:27:45,126 django.utils.autoreload DEBUG File /usr/lib/python3.10/email/charset.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,130 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/signing.py first seen with mtime 1720803408.7655058
+2024-07-13 20:27:45,133 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/options.py first seen with mtime 1720803411.2230566
+2024-07-13 20:27:45,134 django.utils.autoreload DEBUG File /usr/lib/python3.10/contextlib.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,134 django.utils.autoreload DEBUG File /usr/lib/python3.10/asyncio/threads.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,137 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/files/storage/mixins.py first seen with mtime 1720803409.3162062
+2024-07-13 20:27:45,139 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/log.py first seen with mtime 1720803414.4095922
+2024-07-13 20:27:45,140 django.utils.autoreload DEBUG File /usr/lib/python3.10/pickle.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,140 django.utils.autoreload DEBUG File /usr/lib/python3.10/lib-dynload/_asyncio.cpython-310-x86_64-linux-gnu.so first seen with mtime 1711126205.0
+2024-07-13 20:27:45,143 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/client.py first seen with mtime 1720803410.8457932
+2024-07-13 20:27:45,144 django.utils.autoreload DEBUG File /usr/lib/python3.10/ast.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,145 django.utils.autoreload DEBUG File /usr/lib/python3.10/email/mime/nonmultipart.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,145 django.utils.autoreload DEBUG File /usr/lib/python3.10/inspect.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,146 django.utils.autoreload DEBUG File /usr/lib/python3.10/lib-dynload/_decimal.cpython-310-x86_64-linux-gnu.so first seen with mtime 1711126205.0
+2024-07-13 20:27:45,149 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/admin/views/__init__.py first seen with mtime 1720803367.0276585
+2024-07-13 20:27:45,150 django.utils.autoreload DEBUG File /usr/lib/python3.10/reprlib.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,153 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/sql/where.py first seen with mtime 1720803411.633951
+2024-07-13 20:27:45,153 django.utils.autoreload DEBUG File /usr/lib/python3.10/subprocess.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,156 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/checks/translation.py first seen with mtime 1720803409.0486362
+2024-07-13 20:27:45,159 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/sessions/middleware.py first seen with mtime 1720803400.1078982
+2024-07-13 20:27:45,159 django.utils.autoreload DEBUG File /usr/lib/python3.10/lib-dynload/termios.cpython-310-x86_64-linux-gnu.so first seen with mtime 1711126205.0
+2024-07-13 20:27:45,160 django.utils.autoreload DEBUG File /usr/lib/python3.10/dis.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,163 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/auth/hashers.py first seen with mtime 1720803371.0964613
+2024-07-13 20:27:45,167 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/functions/mixins.py first seen with mtime 1720803411.461345
+2024-07-13 20:27:45,167 django.utils.autoreload DEBUG File /usr/lib/python3.10/threading.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,168 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/CronJob/core/settings.py first seen with mtime 1720899248.4751663
+2024-07-13 20:27:45,171 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/inspect.py first seen with mtime 1720803414.3639355
+2024-07-13 20:27:45,171 django.utils.autoreload DEBUG File /usr/lib/python3.10/email/iterators.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,174 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/dispatch/__init__.py first seen with mtime 1720803411.6495793
+2024-07-13 20:27:45,176 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/checks/files.py first seen with mtime 1720803409.003837
+2024-07-13 20:27:45,180 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/views/generic/dates.py first seen with mtime 1720803415.0105517
+2024-07-13 20:27:45,181 django.utils.autoreload DEBUG File /usr/lib/python3.10/sqlite3/dbapi2.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,184 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/messages/storage/__init__.py first seen with mtime 1720803392.9305673
+2024-07-13 20:27:45,184 django.utils.autoreload DEBUG File /usr/lib/python3.10/pkgutil.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,184 django.utils.autoreload DEBUG File /usr/lib/python3.10/signal.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,187 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/templatetags/__init__.py first seen with mtime 1720803413.9220283
+2024-07-13 20:27:45,187 django.utils.autoreload DEBUG File /usr/lib/python3.10/functools.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,188 django.utils.autoreload DEBUG File /usr/lib/python3.10/email/policy.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,190 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/files/move.py first seen with mtime 1720803409.190315
+2024-07-13 20:27:45,195 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/serializers/base.py first seen with mtime 1720803410.1207218
+2024-07-13 20:27:45,198 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/translation/trans_real.py first seen with mtime 1720803414.6478724
+2024-07-13 20:27:45,198 django.utils.autoreload DEBUG File /usr/lib/python3.10/lib-dynload/_contextvars.cpython-310-x86_64-linux-gnu.so first seen with mtime 1711126205.0
+2024-07-13 20:27:45,199 django.utils.autoreload DEBUG File /usr/lib/python3.10/asyncio/futures.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,202 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/sql/subqueries.py first seen with mtime 1720803411.6067877
+2024-07-13 20:27:45,202 django.utils.autoreload DEBUG File /usr/lib/python3.10/lib-dynload/_opcode.cpython-310-x86_64-linux-gnu.so first seen with mtime 1711126205.0
+2024-07-13 20:27:45,203 django.utils.autoreload DEBUG File /usr/lib/python3.10/importlib/_abc.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,205 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/urls/conf.py first seen with mtime 1720803414.0633988
+2024-07-13 20:27:45,205 django.utils.autoreload DEBUG File /usr/lib/python3.10/email/headerregistry.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,206 django.utils.autoreload DEBUG File /usr/lib/python3.10/random.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,206 django.utils.autoreload DEBUG File /usr/lib/python3.10/warnings.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,209 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/backends/ddl_references.py first seen with mtime 1720803410.2505188
+2024-07-13 20:27:45,213 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/fields/generated.py first seen with mtime 1720803411.3179953
+2024-07-13 20:27:45,216 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/query.py first seen with mtime 1720803411.2394092
+2024-07-13 20:27:45,217 django.utils.autoreload DEBUG File /usr/lib/python3.10/ssl.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,219 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/template/base.py first seen with mtime 1720803413.6525872
+2024-07-13 20:27:45,222 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/sqlparse/engine/__init__.py first seen with mtime 1720803335.088063
+2024-07-13 20:27:45,225 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/backends/base/features.py first seen with mtime 1720803410.3258643
+2024-07-13 20:27:45,229 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/template/backends/django.py first seen with mtime 1720803413.8109927
+2024-07-13 20:27:45,232 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/introspection.py first seen with mtime 1720803410.8770432
+2024-07-13 20:27:45,233 django.utils.autoreload DEBUG File /usr/lib/python3.10/io.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,233 django.utils.autoreload DEBUG File /usr/lib/python3.10/typing.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,236 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/checks/security/csrf.py first seen with mtime 1720803409.1277974
+2024-07-13 20:27:45,237 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/CronJob/manage.py first seen with mtime 1716108732.1316519
+2024-07-13 20:27:45,240 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/checks/async_checks.py first seen with mtime 1720803408.9700694
+2024-07-13 20:27:45,240 django.utils.autoreload DEBUG File /usr/lib/python3.10/ntpath.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,243 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/text.py first seen with mtime 1720803414.490297
+2024-07-13 20:27:45,246 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/migrations/exceptions.py first seen with mtime 1720803410.92462
+2024-07-13 20:27:45,249 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/__init__.py first seen with mtime 1720803414.1277628
+2024-07-13 20:27:45,252 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/sqlparse/filters/__init__.py first seen with mtime 1720803335.1985269
+2024-07-13 20:27:45,254 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/urls/__init__.py first seen with mtime 1720803414.0488877
+2024-07-13 20:27:45,257 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/asgiref/current_thread_executor.py first seen with mtime 1720803350.0263598
+2024-07-13 20:27:45,257 django.utils.autoreload DEBUG File /usr/lib/python3.10/copy.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,259 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/forms/renderers.py first seen with mtime 1720803411.933526
+2024-07-13 20:27:45,263 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/views/csrf.py first seen with mtime 1720803414.6947687
+2024-07-13 20:27:45,266 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/checks/caches.py first seen with mtime 1720803408.9856882
+2024-07-13 20:27:45,269 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/template/response.py first seen with mtime 1720803413.760499
+2024-07-13 20:27:45,271 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/sqlparse/sql.py first seen with mtime 1720803334.998031
+2024-07-13 20:27:45,271 django.utils.autoreload DEBUG File /usr/lib/python3.10/codecs.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,274 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/sqlparse/filters/right_margin.py first seen with mtime 1720803335.388831
+2024-07-13 20:27:45,274 django.utils.autoreload DEBUG File /usr/lib/python3.10/keyword.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,274 django.utils.autoreload DEBUG File /usr/lib/python3.10/_sysconfigdata__x86_64-linux-gnu.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,277 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/urls/converters.py first seen with mtime 1720803414.0790436
+2024-07-13 20:27:45,278 django.utils.autoreload DEBUG File /usr/lib/python3.10/lib-dynload/_sqlite3.cpython-310-x86_64-linux-gnu.so first seen with mtime 1711126205.0
+2024-07-13 20:27:45,278 django.utils.autoreload DEBUG File /usr/lib/python3.10/os.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,282 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/admin/sites.py first seen with mtime 1720803356.6616142
+2024-07-13 20:27:45,284 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/exceptions.py first seen with mtime 1720803408.7031102
+2024-07-13 20:27:45,285 django.utils.autoreload DEBUG File /usr/lib/python3.10/importlib/util.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,288 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/backends/base/introspection.py first seen with mtime 1720803410.3495126
+2024-07-13 20:27:45,288 django.utils.autoreload DEBUG File /usr/lib/python3.10/heapq.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,291 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/schema.py first seen with mtime 1720803410.893845
+2024-07-13 20:27:45,295 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/views/generic/edit.py first seen with mtime 1720803415.0260758
+2024-07-13 20:27:45,295 django.utils.autoreload DEBUG File /usr/lib/python3.10/html/__init__.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,299 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/backends/base/creation.py first seen with mtime 1720803410.3258643
+2024-07-13 20:27:45,299 django.utils.autoreload DEBUG File /usr/lib/python3.10/asyncio/coroutines.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,302 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/views/i18n.py first seen with mtime 1720803414.8100913
+2024-07-13 20:27:45,304 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/formats.py first seen with mtime 1720803414.3156714
+2024-07-13 20:27:45,307 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/forms/forms.py first seen with mtime 1720803411.8864748
+2024-07-13 20:27:45,307 django.utils.autoreload DEBUG File /usr/lib/python3.10/hashlib.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,311 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/sql/constants.py first seen with mtime 1720803411.5236948
+2024-07-13 20:27:45,311 django.utils.autoreload DEBUG File /usr/lib/python3.10/glob.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,312 django.utils.autoreload DEBUG File /usr/lib/python3.10/encodings/aliases.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,315 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/admin/filters.py first seen with mtime 1720803356.53188
+2024-07-13 20:27:45,315 django.utils.autoreload DEBUG File /usr/lib/python3.10/traceback.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,318 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/template/defaulttags.py first seen with mtime 1720803413.7004106
+2024-07-13 20:27:45,319 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/CronJob/cronjobapp/urls.py first seen with mtime 1720897154.2983575
+2024-07-13 20:27:45,322 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/template/engine.py first seen with mtime 1720803413.7089243
+2024-07-13 20:27:45,323 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/CronJob/cronjobapp/models.py first seen with mtime 1720899009.8341205
+2024-07-13 20:27:45,327 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/checks/urls.py first seen with mtime 1720803409.0642643
+2024-07-13 20:27:45,327 django.utils.autoreload DEBUG File /usr/lib/python3.10/asyncio/base_events.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,331 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/staticfiles/management/commands/runserver.py first seen with mtime 1720803408.5602808
+2024-07-13 20:27:45,332 django.utils.autoreload DEBUG File /usr/lib/python3.10/bisect.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,332 django.utils.autoreload DEBUG File /usr/lib/python3.10/asyncio/unix_events.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,335 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/backends/signals.py first seen with mtime 1720803410.2625268
+2024-07-13 20:27:45,338 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/checks/registry.py first seen with mtime 1720803409.033002
+2024-07-13 20:27:45,341 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/templatetags/cache.py first seen with mtime 1720803413.9220283
+2024-07-13 20:27:45,341 django.utils.autoreload DEBUG File /usr/lib/python3.10/asyncio/streams.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,345 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/auth/management/__init__.py first seen with mtime 1720803374.6874533
+2024-07-13 20:27:45,348 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/contenttypes/views.py first seen with mtime 1720803375.4383516
+2024-07-13 20:27:45,352 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/middleware/security.py first seen with mtime 1720803413.6213126
+2024-07-13 20:27:45,354 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/serializers/__init__.py first seen with mtime 1720803410.1057127
+2024-07-13 20:27:45,357 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/dates.py first seen with mtime 1720803414.2375152
+2024-07-13 20:27:45,357 django.utils.autoreload DEBUG File /usr/lib/python3.10/numbers.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,360 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/template/library.py first seen with mtime 1720803413.7162955
+2024-07-13 20:27:45,364 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/functions/window.py first seen with mtime 1720803411.491541
+2024-07-13 20:27:45,365 django.utils.autoreload DEBUG File /usr/lib/python3.10/asyncio/locks.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,365 django.utils.autoreload DEBUG File /usr/lib/python3.10/wsgiref/__init__.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,368 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/auth/forms.py first seen with mtime 1720803371.0805182
+2024-07-13 20:27:45,368 django.utils.autoreload DEBUG File /etc/python3.10/sitecustomize.py first seen with mtime 1648890259.0
+2024-07-13 20:27:45,371 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/numberformat.py first seen with mtime 1720803414.4433377
+2024-07-13 20:27:45,371 django.utils.autoreload DEBUG File /usr/lib/python3.10/wsgiref/handlers.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,374 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/__init__.py first seen with mtime 1720803408.6396775
+2024-07-13 20:27:45,377 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/forms/boundfield.py first seen with mtime 1720803411.8239686
+2024-07-13 20:27:45,380 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/auth/backends.py first seen with mtime 1720803371.0199258
+2024-07-13 20:27:45,383 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/html.py first seen with mtime 1720803414.3482797
+2024-07-13 20:27:45,384 django.utils.autoreload DEBUG File /usr/lib/python3.10/asyncio/runners.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,384 django.utils.autoreload DEBUG File /usr/lib/python3.10/operator.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,386 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/crypto.py first seen with mtime 1720803414.2094183
+2024-07-13 20:27:45,389 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/views/debug.py first seen with mtime 1720803414.7108085
+2024-07-13 20:27:45,392 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/http.py first seen with mtime 1720803414.3513024
+2024-07-13 20:27:45,396 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/admin/decorators.py first seen with mtime 1720803356.4543428
+2024-07-13 20:27:45,399 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/cache/utils.py first seen with mtime 1720803408.8284726
+2024-07-13 20:27:45,403 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/checks/compatibility/__init__.py first seen with mtime 1720803409.0798926
+2024-07-13 20:27:45,406 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/migrations/migration.py first seen with mtime 1720803410.9719067
+2024-07-13 20:27:45,409 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/checks/messages.py first seen with mtime 1720803409.0173604
+2024-07-13 20:27:45,413 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/fields/files.py first seen with mtime 1720803411.3064554
+2024-07-13 20:27:45,416 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/servers/basehttp.py first seen with mtime 1720803410.2055964
+2024-07-13 20:27:45,417 django.utils.autoreload DEBUG File /usr/lib/python3.10/sre_compile.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,417 django.utils.autoreload DEBUG File /usr/lib/python3.10/urllib/error.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,417 django.utils.autoreload DEBUG File /usr/lib/python3.10/platform.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,417 django.utils.autoreload DEBUG File /usr/lib/python3.10/stat.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,420 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/sql/datastructures.py first seen with mtime 1720803411.554963
+2024-07-13 20:27:45,423 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/urls/utils.py first seen with mtime 1720803414.1106856
+2024-07-13 20:27:45,423 django.utils.autoreload DEBUG File /usr/lib/python3.10/asyncio/log.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,424 django.utils.autoreload DEBUG File /usr/lib/python3.10/http/__init__.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,424 django.utils.autoreload DEBUG File /usr/lib/python3.10/asyncio/exceptions.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,424 django.utils.autoreload DEBUG File /usr/lib/python3.10/asyncio/trsock.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,428 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/mail/__init__.py first seen with mtime 1720803409.3958573
+2024-07-13 20:27:45,431 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/conf/global_settings.py first seen with mtime 1720803350.8622298
+2024-07-13 20:27:45,434 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/fields/mixins.py first seen with mtime 1720803411.3492725
+2024-07-13 20:27:45,437 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/templatetags/l10n.py first seen with mtime 1720803413.9425554
+2024-07-13 20:27:45,437 django.utils.autoreload DEBUG File /usr/lib/python3.10/difflib.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,440 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/admin/widgets.py first seen with mtime 1720803356.755105
+2024-07-13 20:27:45,440 django.utils.autoreload DEBUG File /usr/lib/python3.10/shutil.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,440 django.utils.autoreload DEBUG File /usr/lib/python3.10/multiprocessing/reduction.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,441 django.utils.autoreload DEBUG File /usr/lib/python3.10/asyncio/sslproto.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,441 django.utils.autoreload DEBUG File /usr/lib/python3.10/email/mime/message.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,444 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/sqlparse/exceptions.py first seen with mtime 1720803334.9533224
+2024-07-13 20:27:45,447 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/contenttypes/admin.py first seen with mtime 1720803375.2010417
+2024-07-13 20:27:45,448 django.utils.autoreload DEBUG File /usr/lib/python3.10/socket.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,450 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/utils/tree.py first seen with mtime 1720803414.5219612
+2024-07-13 20:27:45,451 django.utils.autoreload DEBUG File /usr/lib/python3.10/multiprocessing/context.py first seen with mtime 1711126205.0
+2024-07-13 20:27:45,451 django.utils.autoreload DEBUG File /usr/lib/python3.10/email/encoders.py first seen with mtime 1711126205.0
+2024-07-13 20:27:55,086 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/admin/migrations/__init__.py first seen with mtime 1720803363.2760751
+2024-07-13 20:27:55,103 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/auth/migrations/0010_alter_group_name_max_length.py first seen with mtime 1720803374.8695126
+2024-07-13 20:27:55,105 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/views/defaults.py first seen with mtime 1720803414.7733257
+2024-07-13 20:27:55,148 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/messages/middleware.py first seen with mtime 1720803392.8836687
+2024-07-13 20:27:55,185 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/auth/migrations/0008_alter_user_username_max_length.py first seen with mtime 1720803374.8359084
+2024-07-13 20:27:55,197 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/conf/urls/__init__.py first seen with mtime 1720803356.2462509
+2024-07-13 20:27:55,267 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/sessions/backends/__init__.py first seen with mtime 1720803400.1385431
+2024-07-13 20:27:55,294 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/migrations/executor.py first seen with mtime 1720803410.9411573
+2024-07-13 20:27:55,310 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/core/cache/backends/locmem.py first seen with mtime 1720803408.9227371
+2024-07-13 20:27:55,311 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/CronJob/cronjobapp/migrations/__init__.py first seen with mtime 1716108732.1277435
+2024-07-13 20:27:55,380 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/auth/migrations/0001_initial.py first seen with mtime 1720803374.724916
+2024-07-13 20:27:55,404 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/migrations/recorder.py first seen with mtime 1720803411.0061867
+2024-07-13 20:27:55,415 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py first seen with mtime 1720803411.5081835
+2024-07-13 20:27:55,438 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/auth/migrations/__init__.py first seen with mtime 1720803374.946937
+2024-07-13 20:27:55,475 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/sessions/backends/base.py first seen with mtime 1720803400.1541624
+2024-07-13 20:27:55,602 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/auth/migrations/0007_alter_validators_add_error_messages.py first seen with mtime 1720803374.820218
+2024-07-13 20:27:55,608 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/contenttypes/migrations/0001_initial.py first seen with mtime 1720803378.9876316
+2024-07-13 20:27:55,681 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/contenttypes/migrations/__init__.py first seen with mtime 1720803379.018867
+2024-07-13 20:27:55,687 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/sessions/exceptions.py first seen with mtime 1720803400.0924306
+2024-07-13 20:27:55,701 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/auth/migrations/0004_alter_user_username_opts.py first seen with mtime 1720803374.773502
+2024-07-13 20:27:55,712 django.utils.autoreload DEBUG File /usr/lib/python3.10/encodings/idna.py first seen with mtime 1711126205.0
+2024-07-13 20:27:55,730 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/auth/migrations/0011_update_proxy_permissions.py first seen with mtime 1720803374.8996713
+2024-07-13 20:27:55,752 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/sessions/migrations/0001_initial.py first seen with mtime 1720803404.431808
+2024-07-13 20:27:55,769 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/CronJob/core/wsgi.py first seen with mtime 1716108732.1258168
+2024-07-13 20:27:55,841 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/migrations/graph.py first seen with mtime 1720803410.957394
+2024-07-13 20:27:55,976 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/sessions/migrations/__init__.py first seen with mtime 1720803404.431808
+2024-07-13 20:27:56,000 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/admin/migrations/0002_logentry_remove_auto_add.py first seen with mtime 1720803363.2462888
+2024-07-13 20:27:56,006 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/middleware/common.py first seen with mtime 1720803413.5739741
+2024-07-13 20:27:56,033 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/contenttypes/migrations/0002_remove_content_type_name.py first seen with mtime 1720803379.0038567
+2024-07-13 20:27:56,044 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/auth/migrations/0006_require_contenttypes_0002.py first seen with mtime 1720803374.8045776
+2024-07-13 20:27:56,064 django.utils.autoreload DEBUG File /usr/lib/python3.10/stringprep.py first seen with mtime 1711126205.0
+2024-07-13 20:27:56,120 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/db/migrations/loader.py first seen with mtime 1720803410.957394
+2024-07-13 20:27:56,199 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/sessions/backends/db.py first seen with mtime 1720803400.2015686
+2024-07-13 20:27:56,222 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/auth/migrations/0005_alter_user_last_login_null.py first seen with mtime 1720803374.7885373
+2024-07-13 20:27:56,239 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/auth/migrations/0012_alter_user_first_name_max_length.py first seen with mtime 1720803374.9313014
+2024-07-13 20:27:56,255 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/CronJob/cronjobapp/migrations/0001_initial.py first seen with mtime 1716108732.1277435
+2024-07-13 20:27:56,272 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/auth/migrations/0009_alter_user_last_name_max_length.py first seen with mtime 1720803374.8519282
+2024-07-13 20:27:56,287 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/auth/migrations/0003_alter_user_email_max_length.py first seen with mtime 1720803374.758336
+2024-07-13 20:27:56,294 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/auth/migrations/0002_alter_permission_name_max_length.py first seen with mtime 1720803374.7410352
+2024-07-13 20:27:56,310 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/admin/migrations/0003_logentry_add_action_flag_choices.py first seen with mtime 1720803363.2611415
+2024-07-13 20:27:56,373 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/contrib/admin/migrations/0001_initial.py first seen with mtime 1720803363.24434
+2024-07-13 20:27:56,383 django.utils.autoreload DEBUG File /mnt/d/SELF PROJECT/PYTHON DJANDO/Cron_Job/venv/lib/python3.10/site-packages/django/middleware/clickjacking.py first seen with mtime 1720803413.5739741

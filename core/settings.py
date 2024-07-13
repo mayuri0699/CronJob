@@ -126,34 +126,75 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 import logging
 import os
-APP_LOG_FILENAME = os.path.join(BASE_DIR,'log/app.log')
-ERROR_LOG_FILENAME = os.path.join(BASE_DIR,'log/error.log')
+# APP_LOG_FILENAME = os.path.join(BASE_DIR,'log/app.log')
+# ERROR_LOG_FILENAME = os.path.join(BASE_DIR,'log/error.log')
+
+# LOGGING = {
+#     "version": 1,
+#     "disable_existing_loggers": False,
+#     "handlers": {
+#         "console": {
+#             "class": "logging.StreamHandler",
+#         },
+#     },
+#     "root": {
+#         "handlers": ["console"],
+#         "level": "WARNING",
+#     },
+#     "loggers": {
+#         "django": {
+#             "handlers": ["console"],
+#             "level": os.getenv("DJANGO_LOG_LEVEL", "INFO"),
+#             "propagate": False,
+#         },
+#     },
+# }
+
+
+
+# Logging configuration
+import os
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 LOGGING = {
-    "version": 1,
-    "disable_existing_loggers": False,
-    "handlers": {
-        "console": {
-            "class": "logging.StreamHandler",
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'console': {
+            'format': '{asctime} {name} {levelname} {message}',
+            'style': '{',
+        },
+        'file': {
+            'format': '{asctime} {name} {levelname} {message}',
+            'style': '{',
         },
     },
-    "root": {
-        "handlers": ["console"],
-        "level": "WARNING",
+    'handlers': {
+        'console': {
+            'class': 'logging.StreamHandler',
+            'formatter': 'console',
+        },
+        'file': {
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler',
+            'filename': os.path.join(BASE_DIR, 'log/app.log'),
+            'formatter': 'file',
+        },
     },
-    "loggers": {
-        "django": {
-            "handlers": ["console"],
-            "level": os.getenv("DJANGO_LOG_LEVEL", "INFO"),
-            "propagate": False,
+    'loggers': {
+        'django': {
+            'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+            'propagate': True,
         },
     },
 }
 
-
-
+# Django Cron
 CRONJOBS = [
-    ('*/5 * * * *', 'cronjobapp.cron.print_hello')
+    ('*/1 * * * *', 'cronjobapp.cron.print_hello')
 ]
 
 
